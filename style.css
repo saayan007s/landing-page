@@ -1,0 +1,184 @@
+/* UNIVERSAL STUFF */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body > * {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+/* HEADER STUFF */
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header {
+    font: Roboto, sans-serif;
+    padding: 20px 200px 50px 200px;
+}
+
+/* top stuff */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    font: monospace;
+}
+
+.top .links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+.top .links a {
+    text-decoration: none;
+}
+
+.top .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.top .links a,
+.hero .secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* hero stuff */
+
+.hero {
+    display: flex;
+}
+
+.hero .main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero button {
+    background-color: rgb(53, 53, 164);
+    color: white;
+    border-radius: 10px;
+    padding: 6px 18px;
+    border: none;
+}
+
+.hero .left {
+    padding-right: 100px;
+}
+
+.hero .left > * {
+    margin-bottom: 12px;
+}
+
+/* images */
+
+.header img {
+    width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.content img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    display: block;
+}
+
+/* content */
+
+.content {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.content .info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.content .container div {
+    width: 180px;
+    text-align: center;
+}
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 0;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote .thor {
+    text-align: right;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+/* subscribe */
+
+.subscribe {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.subscribe .container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe .up {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subscribe .down {
+    font-size: 18px;
+}
+
+.subscribe button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    outline: 2px solid white;
+    border: none;
+    padding: 6px 18px;
+}
+
+/* footer */
+
+.footer {
+    color: #f9faf8;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
