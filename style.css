@@ -70,6 +70,7 @@ body > * {
     border-radius: 10px;
     padding: 6px 18px;
     border: none;
+    flex-shrink: 0;
 }
 
 .hero .left {
@@ -93,6 +94,7 @@ body > * {
     height: 180px;
     border-radius: 15px;
     display: block;
+    flex-shrink: 0;
 }
 
 /* content */
@@ -167,11 +169,15 @@ body > * {
 }
 
 .subscribe button {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #3882f6;
     outline: 2px solid white;
     border: none;
     padding: 6px 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: white;
+    flex-shrink: 0;
 }
 
 /* footer */
